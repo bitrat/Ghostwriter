@@ -8,6 +8,7 @@
 ![ghostwriter](DOCS/images/logo.png)
 
 Ghostwriter is a Django project written in Python 3.8 and is designed to be used by a team of operators. The platform is made up of several Django apps that own different roles but work together.
+This Project is meant for Red Teams and Pentesters, but I have adapted it for conducting Digital Accessibility Reviews and reporting.
 
 ## Details
 
