@@ -47,49 +47,812 @@
     "model": "reporting.findingtype",
     "pk": 1,
     "fields": {
-      "finding_type": "Network"
+      "finding_type": "1. Perceivable"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 2,
     "fields": {
-      "finding_type": "Physical"
+      "finding_type": "1.1 Text Alternatives"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 3,
     "fields": {
-      "finding_type": "Wireless"
+      "finding_type": "1.1.1 Non-text Content"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 4,
     "fields": {
-      "finding_type": "Web"
+      "finding_type": "1.2 Time-based Media"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 5,
     "fields": {
-      "finding_type": "Mobile"
+      "finding_type": "1.2.1 Audio-only and Video-only (Prerecorded)"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 6,
     "fields": {
-      "finding_type": "Cloud"
+      "finding_type": "1.2.2 Captions (Prerecorded)"
     }
   },
   {
     "model": "reporting.findingtype",
     "pk": 7,
     "fields": {
-      "finding_type": "Host"
+      "finding_type": "1.2.3 Audio Description or Media Alternative (Prerecorded)"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 8,
+    "fields": {
+      "finding_type": "1.2.4 Captions (Live)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 9,
+    "fields": {
+      "finding_type": "1.2.5 Audio Description (Prerecorded)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 10,
+    "fields": {
+      "finding_type": "1.2.6 Sign Language (Prerecorded)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 11,
+    "fields": {
+      "finding_type": "1.2.7 Extended Audio Description (Prerecorded)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 12,
+    "fields": {
+      "finding_type": "1.2.8 Media Alternative (Prerecorded)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 13,
+    "fields": {
+      "finding_type": "1.2.9 Audio-only (Live)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 14,
+    "fields": {
+      "finding_type": "1.3 Adaptable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 15,
+    "fields": {
+      "finding_type": "1.3.1 Info and Relationships"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 16,
+    "fields": {
+      "finding_type": "1.3.2 Meaningful Sequence"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 17,
+    "fields": {
+      "finding_type": "1.3.3 Sensory Characteristics"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 18,
+    "fields": {
+      "finding_type": "1.3.4 Orientation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 19,
+    "fields": {
+      "finding_type": "1.3.5 Identify Input Purpose"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 20,
+    "fields": {
+      "finding_type": "1.3.6 Identify Purpose"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 21,
+    "fields": {
+      "finding_type": "1.4 Distinguishable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 22,
+    "fields": {
+      "finding_type": "1.4.1 Use of Color"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 23,
+    "fields": {
+      "finding_type": "1.4.3 Contrast (Minimum)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 24,
+    "fields": {
+      "finding_type": "1.4.4 Resize text"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 25,
+    "fields": {
+      "finding_type": "1.4.5 Images of Text"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 26,
+    "fields": {
+      "finding_type": "1.4.6 Contrast (Enhanced)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 27,
+    "fields": {
+      "finding_type": "1.4.7 Low or No Background Audio"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 28,
+    "fields": {
+      "finding_type": "1.4.8 Visual Presentation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 29,
+    "fields": {
+      "finding_type": "1.4.9 Images of Text (No Exception)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 30,
+    "fields": {
+      "finding_type": "1.4.10 Reflow"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 31,
+    "fields": {
+      "finding_type": "1.4.11 Non-text Contrast"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 32,
+    "fields": {
+      "finding_type": "1.4.12 Text Spacing"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 33,
+    "fields": {
+      "finding_type": "1.2.1 Audio-only and Video-only (Prerecorded)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 34,
+    "fields": {
+      "finding_type": "1.4.13 Content on Hover or Focus"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 35,
+    "fields": {
+      "finding_type": "2.Operable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 36,
+    "fields": {
+      "finding_type": "2.1 Keyboard Accessible"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 37,
+    "fields": {
+      "finding_type": "2.1.1 Keyboard"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 38,
+    "fields": {
+      "finding_type": "2.1.2 No Keyboard Trap"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 39,
+    "fields": {
+      "finding_type": "2.1.3 Keyboard (No Exception)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 40,
+    "fields": {
+      "finding_type": "2.1.4 Character Key Shortcuts"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 41,
+    "fields": {
+      "finding_type": "2.2 Enough Time"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 42,
+    "fields": {
+      "finding_type": "2.2.1 Timing Adjustable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 43,
+    "fields": {
+      "finding_type": "2.2.2 Pause, Stop, Hide"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 44,
+    "fields": {
+      "finding_type": "2.2.3 No Timing"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 45,
+    "fields": {
+      "finding_type": "2.2.4 Interruptions"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 46,
+    "fields": {
+      "finding_type": "2.2.5 Re-authenticating"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 47,
+    "fields": {
+      "finding_type": "2.2.6 Timeouts"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 48,
+    "fields": {
+      "finding_type": "2.3 Seizures and Physical Reactions"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 49,
+    "fields": {
+      "finding_type": "2.3.1 Three Flashes or Below Threshold"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 50,
+    "fields": {
+      "finding_type": "2.3.2 Three Flashes"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 51,
+    "fields": {
+      "finding_type": "2.3.3 Animation from Interactions"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 52,
+    "fields": {
+      "finding_type": "2.4 Navigable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 53,
+    "fields": {
+      "finding_type": "2.4.1 Bypass Blocks"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 54,
+    "fields": {
+      "finding_type": "2.4.2 Page Titled"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 55,
+    "fields": {
+      "finding_type": "2.4.3 Focus Order"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 56,
+    "fields": {
+      "finding_type": "2.4.4 Link Purpose (In Context)"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 57,
+    "fields": {
+      "finding_type": "2.4.5 Multiple Ways"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 58,
+    "fields": {
+      "finding_type": "2.4.6 Headings and Labels"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 59,
+    "fields": {
+      "finding_type": "2.4.7 Focus Visible"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 60,
+    "fields": {
+      "finding_type": "2.4.8 Location"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 61,
+    "fields": {
+      "finding_type": "2.4.9 Link Purpose (Link Only)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 62,
+    "fields": {
+      "finding_type": "2.4.10 Section Headings"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 63,
+    "fields": {
+      "finding_type": "2.5 Input Modalities"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 64,
+    "fields": {
+      "finding_type": "2.5.1 Pointer Gestures"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 65,
+    "fields": {
+      "finding_type": "2.5.2 Pointer Cancellation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 66,
+    "fields": {
+      "finding_type": "2.5.3 Label in Name"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 67,
+    "fields": {
+      "finding_type": "2.5.4 Motion Actuation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 68,
+    "fields": {
+      "finding_type": "2.5.5 Target Size"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 69,
+    "fields": {
+      "finding_type": "2.5.6 Concurrent Input Mechanisms"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 70,
+    "fields": {
+      "finding_type": "3.Understandable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 71,
+    "fields": {
+      "finding_type": "3.1 Readable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 72,
+    "fields": {
+      "finding_type": "3.1.1 Language of Page"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 73,
+    "fields": {
+      "finding_type": "3.1.2 Language of Parts"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 74,
+    "fields": {
+      "finding_type": "3.1.3 Unusual Words"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 75,
+    "fields": {
+      "finding_type": "3.1.4 Abbreviations"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 76,
+    "fields": {
+      "finding_type": "3.1.5 Reading Level"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 77,
+    "fields": {
+      "finding_type": "3.1.6 Pronunciation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 78,
+    "fields": {
+      "finding_type": "3.2 Predictable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 79,
+    "fields": {
+      "finding_type": "3.2.1 On Focus"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 80,
+    "fields": {
+      "finding_type": "3.2.2 On Input"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 81,
+    "fields": {
+      "finding_type": "3.2.3 Consistent Navigation"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 82,
+    "fields": {
+      "finding_type": "3.2.4 Consistent Identification"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 83,
+    "fields": {
+      "finding_type": "3.2.5 Change on Request"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 84,
+    "fields": {
+      "finding_type": "3.3 Input Assistance"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 85,
+    "fields": {
+      "finding_type": "3.3.1 Error Identification"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 86,
+    "fields": {
+      "finding_type": "3.3.2 Labels or Instructions"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 87,
+    "fields": {
+      "finding_type": "3.3.3 Error Suggestion"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 88,
+    "fields": {
+      "finding_type": "3.3.4 Error Prevention (Legal, Financial, Data)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 89,
+    "fields": {
+      "finding_type": "3.3.5 Help"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 90,
+    "fields": {
+      "finding_type": "4.Robust"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 91,
+    "fields": {
+      "finding_type": "4.1 Compatible"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 92,
+    "fields": {
+      "finding_type": "4.1.1 Parsing"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 93,
+    "fields": {
+      "finding_type": "4.1.2 Name, Role, Value"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 94,
+    "fields": {
+      "finding_type": "4.1.3 Status Messages"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 95,
+    "fields": {
+      "finding_type": "W3C - 1. Mobile Acessibility - perceivable"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 96,
+    "fields": {
+      "finding_type": "W3C - 1.1 Small Screen Size"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 97,
+    "fields": {
+      "finding_type": "W3C - 1.2 Zoom/Magnification"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 98,
+    "fields": {
+      "finding_type": "W3C - 1.3 Contrast"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 99,
+    "fields": {
+      "finding_type": "W3C - 1.4 Non-Linear Screen Layouts"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 100,
+    "fields": {
+      "finding_type": "W3C - 2. Mobile Acessibility - operable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 101,
+    "fields": {
+      "finding_type": "W3C - 2.1 Keyboard Control for Touchscreen Devices"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 102,
+    "fields": {
+      "finding_type": "W3C - 2.2 Touch Target Size and Spacing"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 103,
+    "fields": {
+      "finding_type": "W3C - 2.3 Touchscreen Gestures"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 104,
+    "fields": {
+      "finding_type": "W3C - 2.4 Device Manipulation Gestures"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 105,
+    "fields": {
+      "finding_type": "W3C - 2.5 Placing buttons where they are easy to access"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 106,
+    "fields": {
+      "finding_type": "W3C - 3. Mobile Acessibility - understandable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 107,
+    "fields": {
+      "finding_type": "W3C - 3.1 Changing Screen Orientation (Portrait/Landscape)"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 108,
+    "fields": {
+      "finding_type": "W3C - 3.2 Consistent Layout"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 109,
+    "fields": {
+      "finding_type": "W3C - 3.3 Positioning important page elements before the page scroll"
+    }
+  },
+ {
+    "model": "reporting.findingtype",
+    "pk": 110,
+    "fields": {
+      "finding_type": "W3C - 3.4 Grouping operable elements that perform the same action"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 111,
+    "fields": {
+      "finding_type": "W3C - 3.5 Provide clear indication that elements are actionable"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 112,
+    "fields": {
+      "finding_type": "W3C - 3.6 Provide instructions for custom touchscreen and device manipulation gestures"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 113,
+    "fields": {
+      "finding_type": "W3C - 4. Mobile Acessibility - robust"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 114,
+    "fields": {
+      "finding_type": "W3C - 4.1 Set the virtual keyboard to the type of data entry required"
+    }
+  },
+   {
+    "model": "reporting.findingtype",
+    "pk": 115,
+    "fields": {
+      "finding_type": "W3C - 4.2 Provide easy methods for data entry"
+    }
+  },
+  {
+    "model": "reporting.findingtype",
+    "pk": 116,
+    "fields": {
+      "finding_type": "W3C - 4.3 Support the characteristic properties of the platform"
     }
   },
   {
