@@ -1,4 +1,4 @@
-# Ghostwriter
+# Ghostwriter - Digital Accessibility Testing Version
 
 [![Python Version](https://img.shields.io/badge/Python-3.8-brightgreen.svg)](.) [![License](https://img.shields.io/badge/License-BSD3-darkred.svg)](.) [![Black Hat Arsenal 2019](https://img.shields.io/badge/2019-Black%20Hat%20Arsenal-lightgrey.svg)](https://www.blackhat.com/us-19/arsenal/schedule/index.html#ghostwriter-15475)
 
@@ -35,7 +35,7 @@ Before submitting an issue, review the [Ghostwriter Wiki](https://ghostwriter.wi
 
 ## Contributing to the Project
 
-Please open issues or submit pull requests! The project team welcomes feedback, new ideas, and external contributions. Before submitting a PR, please check open and closed issues for any previous related discussion. Also, the submitted code must follow the [Code Style Guide](https://ghostwriter.wiki/coding-style-guide/style-guide) to be accepted.
+Please open issues or submit pull requests at the original Ghostwriter github project! The project team welcomes feedback, new ideas, and external contributions. Before submitting a PR, please check open and closed issues for any previous related discussion. Also, the submitted code must follow the [Code Style Guide](https://ghostwriter.wiki/coding-style-guide/style-guide) to be accepted.
 
 We only ask that you limit PR submissions to those that fix a bug, enhance an existing feature, or add something new.
 
