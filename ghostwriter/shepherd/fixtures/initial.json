@@ -23,14 +23,14 @@
     "model": "shepherd.activitytype",
     "pk": 1,
     "fields": {
-      "activity": "Command and Control"
+      "activity": "Production"
     }
   },
   {
     "model": "shepherd.activitytype",
     "pk": 2,
     "fields": {
-      "activity": "Phishing"
+      "activity": "Testing"
     }
   },
   {
