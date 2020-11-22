@@ -3,49 +3,42 @@
       "model": "rolodex.projecttype",
       "pk": 1,
       "fields": {
-          "project_type": "Red Team"
+          "project_type": "Digital Accessibility Review"
       }
     },
     {
       "model": "rolodex.projecttype",
       "pk": 2,
       "fields": {
-          "project_type": "Penetration Test"
+          "project_type": "Digital Accessibility Training"
       }
     },
     {
       "model": "rolodex.projecttype",
       "pk": 3,
       "fields": {
-          "project_type": "Phishing Assessment"
-      }
-    },
-    {
-      "model": "rolodex.projecttype",
-      "pk": 4,
-      "fields": {
-          "project_type": "Web Application Assessment"
+          "project_type": "Technical Consultancy"
       }
     },
     {
       "model": "rolodex.projectrole",
       "pk": 1,
       "fields": {
-          "project_role": "Assessment Lead"
+          "project_role": "Digital Accessibility Consultant"
       }
     },
     {
       "model": "rolodex.projectrole",
       "pk": 2,
       "fields": {
-          "project_role": "Assessment Oversight"
+          "project_role": "Digital Accessibility Trainer"
       }
     },
     {
       "model": "rolodex.projectrole",
       "pk": 3,
       "fields": {
-          "project_role": "Operator"
+          "project_role": "Technical Consultant"
       }
     },
     {
